@@ -1,0 +1,1 @@
+{"cases":[{"sessionId":"bp-old-cal","calibratedAt":"2025-11-01T00:00:00Z","systolic":142,"diastolic":92,"symptoms":[]},{"sessionId":"bp-retry","submissionIds":["upload-21","upload-21"],"systolic":138,"diastolic":88,"symptoms":[]},{"sessionId":"bp-urgent","systolic":151,"diastolic":96,"postureConfirmed":false,"symptoms":["severe-headache","visual-change"]}]}
