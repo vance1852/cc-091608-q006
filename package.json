@@ -1,1 +1,17 @@
-{"name":"pregnancy-bp-triage","version":"0.1.0","private":true,"type":"module","scripts":{"check":"tsc --noEmit","test":"npm run check"},"devDependencies":{"typescript":"5.9.2"}}
+{
+  "name": "pregnancy-bp-triage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "build": "tsc",
+    "test": "npm run check && tsc && node --test dist/test/*.test.js",
+    "start": "node dist/src/main.js",
+    "serve": "node dist/src/serve.js"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "5.9.2"
+  }
+}
